@@ -1,4 +1,7 @@
-nginx
-kasmweb/nginx:1.25.3
-xhofe/alist:latest
---platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/arm64 postgres:latest
+--platform=linux/arm64 redis:latest
+--platform=linux/arm64 ansible/awx:16.0.0
+--platform=linux/arm64 ansible/awx_task:latest
+--platform=linux/arm64 ansible/awx_web:latest
+--platform=linux/arm64 geerlingguy/awx_task:latest
+--platform=linux/arm64 geerlingguy/awx_web:latest
