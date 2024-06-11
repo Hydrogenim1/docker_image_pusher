@@ -1,7 +1,3 @@
---platform=linux/arm64 postgres:latest
---platform=linux/arm64 redis:latest
-ansible/awx:16.0.0
-ansible/awx_task:latest
-ansible/awx_web:latest
-geerlingguy/awx_task:latest
-geerlingguy/awx_web:latest
+postgres:latest
+redis:latest
+library/postgres:latest
