@@ -1,3 +1,2 @@
-postgres:latest
-redis:latest
-library/postgres:latest
+centos:8
+centos:7.9
