@@ -1,1 +1,1 @@
-redis:7
+docker.io/redis:7
